@@ -1,7 +1,7 @@
 // src/components/Client/Payment.jsx
 import { useEffect, useState } from 'react';
 import { useMutation } from '@apollo/client';
-import { CREATE_TICKET, CREATE_PAYMENT } from '../../graphql/mutations';
+import { CREATE_TICKET, CREATE_PAYMENT } from '../../graphql/mutations.js';
 
 export default function Payment() {
   const [resumen, setResumen] = useState(null);
