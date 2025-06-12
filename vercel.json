@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/graphql",
-      "destination": "http://67.223.117.64:4001/graphql"
+      "destination": "67.223.117.64:4000"
     }
   ]
 }
